@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_extensions.dart';
 import '../../../../data/models/responsive_size.dart';
 
@@ -18,7 +17,7 @@ class CircleImageBorder extends StatelessWidget {
     return Container(
       width: responsiveSize.getSize(),
       height: responsiveSize.getSize(),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.transparent,
         shape: BoxShape.circle,
       ),
